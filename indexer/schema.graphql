@@ -1,0 +1,10 @@
+type VideoUploaded @entity(immutable: true) {
+  id: ID!
+  videoHash: String! # string
+  title: String! # string
+  description: String! # string
+  category: String! # string
+  thumbnailHash: String! # string
+  createdOn: BigInt! # timestamp
+  creator: Bytes! # address
+}
