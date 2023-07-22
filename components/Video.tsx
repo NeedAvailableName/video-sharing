@@ -48,7 +48,7 @@ const Video: React.FC<IProps> = ({ video, horizontal }) => {
           {horizontal && (
             <p className="text-sm flex items-center text-subtitle-light mt-1">
               {video.category} • {" "}
-              {moment(new Date(video.createdOn * 1)).fromNow()}
+              {moment(new Date(Number(video.createdOn))).fromNow()}
             </p>
           )}
           <p className="text-sm flex items-center text-subtitle-light mt-1">
