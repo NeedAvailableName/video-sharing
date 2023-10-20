@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useRouter } from "next/router";
 import { Header, Sidebar } from "../../layout";
 import React, { useEffect, useState } from "react";
@@ -13,7 +14,6 @@ import moment from "moment";
 import { BiCheck } from "react-icons/bi";
 import Avvvatars from "avvvatars-react";
 import { IVideo } from "../../types";
-import { log } from "@graphprotocol/graph-ts";
 
 export default function Video() {
   const router = useRouter();

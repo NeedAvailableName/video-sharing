@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { useState, useRef } from "react";
 import { Sidebar, Header } from "../../layout";
 import { BiCloud, BiPlus } from "react-icons/bi";

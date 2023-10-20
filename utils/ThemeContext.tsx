@@ -30,7 +30,7 @@ export const ThemeProvider = ({
 }) => {
   const [theme, setTheme] = React.useState(getInitialTheme);
 
-  const rawSetTheme = (rawTheme) => {
+  const rawSetTheme = (rawTheme: any) => {
     const root = window.document.documentElement;
     const isDark = rawTheme === "dark";
 

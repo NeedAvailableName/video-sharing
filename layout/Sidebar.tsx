@@ -11,7 +11,7 @@ import { IoGameControllerOutline } from "react-icons/io5";
 
 import { Colors } from "../constants/colors";
 
-export default function Sidebar({ updateCategory }) {
+export default function Sidebar({ updateCategory }: any) {
   const [active, setActive] = useState("All");
 
   let color = "#878787";
