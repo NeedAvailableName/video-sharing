@@ -13,7 +13,7 @@ function Landing() {
 
   return (
     <>
-      <section className="relative bg-background-light dark:bg-black flex flex-col h-full justify-center items-center">
+      <section className="relative bg-background-light flex flex-col h-full justify-center items-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="pt-8">
             <div className="text-center pb-12 md:pb-16">
